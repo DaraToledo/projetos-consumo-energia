@@ -1,0 +1,14 @@
+#Calculadora de consumo elétrico inteligente
+#Autor: Dara Toledo
+
+#Entrada
+Aparelho=input("Digite o nome do Aparelho: ")
+Potencia=float(input("Digite a potência em watts: "))
+Tempo=float(input("Informe o tempo médio de uso diário (horas): "))
+
+#Processamento
+consumoMensal = (Potencia * Tempo * 30) / 1000
+
+#Saída
+print("Aparelho:", Aparelho)
+print("Consumo estimado:", consumoMensal)
